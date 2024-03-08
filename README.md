@@ -13,7 +13,10 @@ For those of you who are interested in the build process, there is a step-by-ste
 **NOTE - If the standard zip extractor does not work, please install 7zip on your machine to expand the zip file.**
 
 2. You can add the OpenCV library in Xcode with a simple drag-and-drop action on the opencv2.framework folder.
-It will give you a pop-up when you do so, keep the settings given below:
+It will give you a pop-up when you do so, keep the settings given below: \
+- Destination: ✅ Copy items if needed 
+- Added folders: ✅ Create groups 
+- Add to targets: ✅ \<project name>
             
 3. OpenCV is now added in the project modules.
 
